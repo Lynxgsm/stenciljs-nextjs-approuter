@@ -26,7 +26,7 @@
     "generate": "stencil generate"
   },
   "dependencies": {
-    "@stencil/core": "github:smartive/stencil-patched#v4.8.1"
+    "@stencil/core": "4.12.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.6",

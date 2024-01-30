@@ -2,7 +2,7 @@
 const path = require('path');
 
 module.exports = {
-  extends: ['prettier', '@smartive/eslint-config'],
+  extends: ['prettier'],
   parserOptions: {
     project: ['./packages/web-components-react-wrapper/tsconfig.eslint.json'],
     tsconfigRootDir: path.resolve(__dirname, '../../'),
